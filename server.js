@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 mongoose.Promise = Promise
 
-var dbUrl = 'mongodb://user:user@ds155424.mlab.com:55424/learning-node'
+var dbUrl = 'mongodb://-----'
 
 var Message = mongoose.model('Message', {
     name: String,
